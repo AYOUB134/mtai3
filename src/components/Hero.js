@@ -1,22 +1,28 @@
-import React from 'react';
-
-const Hero = () => {
-  return (
-    <div className="relative bg-white text-gray-800 py-20 lg:py-40">
-      {/* Hero Content */}
-      <div className="max-w-7xl mx-auto px-6 flex flex-col items-center text-center">
-        <h1 className="text-5xl lg:text-7xl font-extrabold leading-tight mb-6">
-          Welcome to Our Website
-        </h1>
-        <p className="text-xl lg:text-2xl max-w-3xl mb-8">
-          Discover amazing content and explore new possibilities with our cutting-edge solutions and technology.
-        </p>
-        <button className="bg-blue-600 text-white font-semibold text-lg lg:text-xl py-4 px-8 rounded-full hover:bg-blue-700 transition duration-300">
-          Get Started
-        </button>
-      </div>
-    </div>
-  );
-};
-
-export default Hero;
+export default function Hero() {
+    return (
+      <main className="relative z-10 mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
+        <div className="text-center">
+          <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
+            <span className="block">Welcome to</span>
+            <span className="block text-blue-200">MTAI Software Labs</span>
+          </h1>
+          <p className="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+            We are a software design and development agency that creates innovative solutions for your business needs.
+          </p>
+          <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+            <div className="rounded-md shadow">
+              <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
+                Get started
+              </a>
+            </div>
+            <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+              <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10">
+                Learn more
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+    );
+  }
+  
