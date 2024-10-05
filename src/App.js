@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Navhero from './components/NavHero';
 import About from './components/About'
 import Services from './components/Services';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 <Navhero></Navhero>
 <About></About>
 <Services></Services>
+<Projects></Projects>
 </>
   );
 }
