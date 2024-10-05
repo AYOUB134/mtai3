@@ -21,7 +21,7 @@ export default function Services() {
                         <img
                             src={wedo1}
                             alt="UI/UX"
-                            className="mb-6 w-24 h-24 rounded-full" // Increased size to 24 and margin-bottom to 6 for more spacing
+                            className="mb-6 w-20 h-20 rounded-full" // Increased size to 24 and margin-bottom to 6 for more spacing
                         />
                         <h2 className="text-xl font-semibold mb-4">UI/UX</h2> {/* Increased margin-bottom to 4 for more spacing */}
                         <p className="text-gray-600 text-base tracking-wide leading-relaxed">
@@ -34,7 +34,7 @@ export default function Services() {
                         <img
                             src={wedo2}
                             alt="Icon/Illustration"
-                            className="mb-6 w-24 h-24 rounded-full"
+                            className="mb-6 w-20 h-20 rounded-full"
                         />
                         <h2 className="text-xl font-semibold mb-4">Icon/Illustration</h2>
                         <p className="text-gray-600 text-base tracking-wide leading-relaxed">
@@ -47,7 +47,7 @@ export default function Services() {
                         <img
                             src={wedo3}
                             alt="IOS Development"
-                            className="mb-6 w-24 h-24 rounded-full"
+                            className="mb-6 w-20 h-20 rounded-full"
                         />
                         <h2 className="text-xl font-semibold mb-4">IOS Development</h2>
                         <p className="text-gray-600 text-base tracking-wide leading-relaxed">
@@ -60,7 +60,7 @@ export default function Services() {
                         <img
                             src={wedo4}
                             alt="Development"
-                            className="mb-6 w-24 h-24 rounded-full"
+                            className="mb-6 w-20 h-20 rounded-full"
                         />
                         <h2 className="text-xl font-semibold mb-4">Development</h2>
                         <p className="text-gray-600 text-base tracking-wide leading-relaxed">
@@ -73,7 +73,7 @@ export default function Services() {
                         <img
                             src={wedo5}
                             alt="Android Development"
-                            className="mb-6 w-24 h-24 rounded-full"
+                            className="mb-6 w-20 h-20 rounded-full"
                         />
                         <h2 className="text-xl font-semibold mb-4">Android Development</h2>
                         <p className="text-gray-600 text-base tracking-wide leading-relaxed">
@@ -86,7 +86,7 @@ export default function Services() {
                         <img
                             src={wedo6}
                             alt="Web Development"
-                            className="mb-6 w-24 h-24 rounded-full"
+                            className="mb-6 w-20 h-20 rounded-full"
                         />
                         <h2 className="text-xl font-semibold mb-4">Web Development</h2>
                         <p className="text-gray-600 text-base tracking-wide leading-relaxed">
