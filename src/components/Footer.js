@@ -7,7 +7,7 @@ import waveImage from './images/wave-haikei.png'; // Import the wave image
 const Footer = () => {
   return (
     <footer
-      className="text-white py-20 relative overflow-hidden"  id='conatct'// Removed bg-gray-800 and added custom style for background color
+      className="text-white py-20 relative overflow-hidden"  id='contact'// Removed bg-gray-800 and added custom style for background color
       style={{
         backgroundImage: `url(${waveImage})`, // Set the background image
         backgroundSize: 'cover', // Ensure the image covers the entire footer
