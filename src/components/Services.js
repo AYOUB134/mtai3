@@ -6,7 +6,7 @@ import wedo5 from './images/wedo-5.png'
 import wedo6 from './images/wedo-6.png'
 export default function Services() {
     return (
-        <div className="bg-gray-50 py-16">
+        <div className="bg-gray-50 py-16" id='services'>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 {/* Heading */}
                 <h1 className="text-4xl font-bold text-gray-900 mb-12">OUR SERVICES</h1> {/* Increased margin-bottom to 12 for more spacing */}

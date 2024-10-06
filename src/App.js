@@ -7,6 +7,7 @@ import About from './components/About'
 import Services from './components/Services';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import Technologies from './components/Technologies';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 <Navhero></Navhero>
 <About></About>
 <Services></Services>
+<Technologies></Technologies>
 <Projects></Projects>
 <Footer></Footer>
 </>

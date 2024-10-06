@@ -19,22 +19,24 @@ export default function Navhero() {
                 <span className="text-white text-2xl font-bold">MTAI Software Labs</span>
               </div>
             </div>
-            <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
-                <a href="#" className="text-white hover:bg-white hover:bg-opacity-10 px-3 py-2 rounded-md text-sm font-medium">
-                  Home
-                </a>
-                <a href="#" className="text-white hover:bg-white hover:bg-opacity-10 px-3 py-2 rounded-md text-sm font-medium">
-                  Services
-                </a>
-                <a href="#" className="text-white hover:bg-white hover:bg-opacity-10 px-3 py-2 rounded-md text-sm font-medium">
-                  About
-                </a>
-                <a href="#" className="text-white hover:bg-white hover:bg-opacity-10 px-3 py-2 rounded-md text-sm font-medium">
-                  Contact
-                </a>
-              </div>
-            </div>
+            <div className="ml-10 flex items-baseline space-x-4">
+              <a href="#" className="text-white hover:bg-white hover:bg-opacity-10 px-3 py-2 rounded-md text-sm font-medium">
+                Home
+              </a>
+              <a href="#services" className="text-white hover:bg-white hover:bg-opacity-10 px-3 py-2 rounded-md text-sm font-medium">
+                Services
+              </a>
+              <a href="#technologies" className="text-white hover:bg-white hover:bg-opacity-10 px-3 py-2 rounded-md text-sm font-medium">
+                Technologies
+              </a>
+              <a href="#projects" className="text-white hover:bg-white hover:bg-opacity-10 px-3 py-2 rounded-md text-sm font-medium">
+                Projects
+              </a>
+              <a href="#conatct" className="text-white hover:bg-white hover:bg-opacity-10 px-3 py-2 rounded-md text-sm font-medium">
+                Contact Us
+              </a>
+        </div>
+
             <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
