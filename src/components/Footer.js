@@ -2,7 +2,7 @@ import React from 'react';
 import facebookImg from './images/facebook.png';
 import instagramImg from './images/instagram.png';
 import linkedinImg from './images/linkedin.png';
-import waveImage from './images/wave-haikei.png'; // Import the wave image
+import waveImage from './images/wave-haikei.png';
 
 const Footer = () => {
   return (
