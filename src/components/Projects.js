@@ -1,7 +1,7 @@
 import React from 'react';
-import mitronImg from './images/mitron.jpg';
-import foodiesImg from './images/foodies-1.jpg';
-import binderImg from './images/binder-1.jpg';
+import ludooImg from './images/ludoo.jpg';
+import foodiesImg from './images/foodapp.jpg';
+import doctorImg from './images/doctor.jpg';
 import badooImg from './images/hugme-1.jpg';
 import infotexImg from './images/88-01.jpg';
 import nafterImg from './images/nafter.jpg';
@@ -9,24 +9,26 @@ import vorzImg from './images/vorz.jpg';
 
 const projects = [
   {
-    title: "Badoo Clone Dating App",
-    description: "App Development, Android",
-    image: badooImg,
-  },
+    title: "Ludo Game App",
+    description: "Classic Board Game, Multiplayer Fun",
+    image: ludooImg,
+},
+
   {
     title: "Foodies - Food Delivery App",
     description: "App Development, Android and IOS App",
     image: foodiesImg,
   },
   {
-    title: "Mitron",
-    description: "App Development, Android",
-    image: mitronImg,
-  },
+    title: "Healthcare Management App",
+    description: "Manage Medical Records, Consult Doctors, and Access Ambulance Services",
+    image: doctorImg, // Replace `doctorImg` with the actual image variable or path
+},
+
   {
     title: "Binder - Tinder Clone",
     description: "IOS and Android",
-    image: binderImg,
+    image: doctorImg,
   },
   {
     title: "Infotex - Social Video Sharing App",

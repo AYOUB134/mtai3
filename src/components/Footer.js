@@ -2,22 +2,22 @@ import React from 'react';
 import facebookImg from './images/facebook.png';
 import instagramImg from './images/instagram.png';
 import linkedinImg from './images/linkedin.png';
-import waveImage from './images/wave-haikei.png';
+import footerimg from './images/footerimg.png';
 
 const Footer = () => {
   return (
     <footer
       className="text-white py-20 relative overflow-hidden"  id='contact'// Removed bg-gray-800 and added custom style for background color
       style={{
-        backgroundImage: `url(${waveImage})`, // Set the background image
+        backgroundImage: `url(${footerimg})`, // Set the background image
         backgroundSize: 'cover', // Ensure the image covers the entire footer
         backgroundPosition: 'center', // Center the background image
         backgroundRepeat: 'no-repeat', // Prevent the background image from repeating
-        backgroundColor: '#5b4acb', // Set the custom background color
+        // backgroundColor: '#5b4acb', // Set the custom background color
       }}
     >
       <div className="container mx-auto text-center relative z-10"> {/* Ensure this is above the SVG */}
-        <h1 className="text-3xl md:text-4xl font-bold text-center mb-10 leading-snug tracking-widest">
+        <h1 className=" text-black text-3xl md:text-4xl font-bold text-center mb-10 leading-snug tracking-widest">
           Interested to work with us?
         </h1>
 
