@@ -13,7 +13,7 @@ export default function About() {
   
           {/* Description Text */}
           <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-8 mb-6 tracking-wide"> {/* Added tracking-wide for word spacing */}
-            Need a customized application to suit your business needs? Worry no more! At Qboxus, we create clones of popular applications that are already in the market. We have most, if not all, applications available in our collection. The apps range from food delivery apps like Skipthedishes and Seamless, dating apps such as Tinder and Bumble, video sharing apps like TikTok to image sharing apps such as Instagram.You buy the app for an affordable fee of less than $40, and we will customize the app to suit your brand. This way, you save your precious money for other business processes such as marketing. Better yet, it is a one-time fee transaction and no monthly cost is required.
+            Need a customized application to suit your business needs? Worry no more! At MTAI, we create clones of popular applications that are already in the market. We have most, if not all, applications available in our collection. The apps range from food delivery apps like Skipthedishes and Seamless, dating apps such as Tinder and Bumble, video sharing apps like TikTok to image sharing apps such as Instagram.You buy the app for an affordable fee of less than $40, and we will customize the app to suit your brand. This way, you save your precious money for other business processes such as marketing. Better yet, it is a one-time fee transaction and no monthly cost is required.
           </p>
          </div>
       </div>

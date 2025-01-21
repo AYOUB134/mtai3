@@ -2,7 +2,7 @@ import React from 'react';
 import ludooImg from './images/ludoo.jpg';
 import foodiesImg from './images/foodapp.jpg';
 import doctorImg from './images/doctor.jpg';
-import badooImg from './images/hugme-1.jpg';
+import hikmatImg from './images/hikmat.jpg';
 import infotexImg from './images/88-01.jpg';
 import nafterImg from './images/nafter.jpg';
 import vorzImg from './images/vorz.jpg';
@@ -26,25 +26,25 @@ const projects = [
 },
 
   {
-    title: "Binder - Tinder Clone",
+    title: "Hikmat.Ai",
     description: "IOS and Android",
-    image: doctorImg,
+    image: hikmatImg,
   },
-  {
-    title: "Infotex - Social Video Sharing App",
-    description: "App Development, Android, IOS",
-    image: infotexImg,
-  },
-  {
-    title: "Vorz - Blockchain NFT Application",
-    description: "App Development, Blockchain, Android, IOS",
-    image: vorzImg,
-  },
-  {
-    title: "Nafter - Social Media NFT Platform",
-    description: "Blockchain Application",
-    image: nafterImg,
-  },
+  // {
+  //   title: "Infotex - Social Video Sharing App",
+  //   description: "App Development, Android, IOS",
+  //   image: infotexImg,
+  // },
+  // {
+  //   title: "Vorz - Blockchain NFT Application",
+  //   description: "App Development, Blockchain, Android, IOS",
+  //   image: vorzImg,
+  // },
+  // {
+  //   title: "Nafter - Social Media NFT Platform",
+  //   description: "Blockchain Application",
+  //   image: nafterImg,
+  // },
 ];
 
 export default function ProjectShowcase() {
