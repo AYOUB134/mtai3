@@ -4,6 +4,7 @@ import wedo3 from './images/wedo-3.png'
 import wedo4 from './images/wedo-4.png'
 import wedo5 from './images/wedo-5.png'
 import wedo6 from './images/wedo-6.png'
+import wedoCross from './images/wedoCross.jpg'
 export default function Services() {
     return (
         <div className="bg-gray-50 py-16" id='services'>
@@ -93,6 +94,22 @@ export default function Services() {
                             We provide both frontend and backend development services.
                         </p>
                     </div>
+
+
+                    <div className="flex flex-col items-center mx-4 text-center w-full sm:w-1/2 md:w-1/3 lg:w-1/4 my-8">
+                        <img
+                            src={wedoCross}
+                            alt="Cross-Platform"
+                            className="mb-6 w-20 h-20 rounded-full"
+                        />
+                        <h2 className="text-xl font-semibold mb-4">Cross-Platform</h2>
+                        <p className="text-gray-600 text-base tracking-wide leading-relaxed">
+                            Build applications for multiple platforms using frameworks like React Native and Flutter.
+                        </p>
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
