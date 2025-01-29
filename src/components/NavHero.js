@@ -7,11 +7,15 @@ export default function Navhero() {
 
   return (
     <div
-      className="relative min-h-screen bg-cover overflow-hidden"
-      style={{
-        backgroundImage: `url(${Heroimg})`, // Use `url()` to set the background image
-      }}
-    >
+    className="relative min-h-screen bg-cover bg-center bg-no-repeat overflow-hidden"
+    style={{
+      backgroundImage: `url(${Heroimg})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}
+  >
+
+  
       {/* Navigation */}
       <nav className="relative z-10 bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

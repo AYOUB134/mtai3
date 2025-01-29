@@ -1,31 +1,94 @@
 import React from 'react';
-import flutterLogo from './images/flutter icon.jpeg'; // Import the Flutter logo
+import flutterLogo from './images/flutter icon.jpeg'; 
+import JavaScript from './images/technologies/js.jpeg'
+import Php from './images/technologies/php.jpeg'
+import Laravel from './images/technologies/laravel.jpeg'
+import Mern from './images/technologies/mern.jpeg'
+import Mean from './images/technologies/mean.jpeg'
+import Python from './images/technologies/python.jpeg'
+import Django from './images/technologies/django.jpeg'
+import Rubby from './images/technologies/ruby.jpeg'
+import Java from './images/technologies/java.jpeg'
+import Spring from './images/technologies/spring.jpeg'
+import Csharp from './images/technologies/csharp.jpeg'
+import Asp from './images/technologies/asp.jpeg'
+
+import Android from './images/technologies/andoroid.jpeg'
+import iOS from './images/technologies/ios.jpeg'
+import ReactNative from './images/technologies/asp.jpeg'
+import Xamarin from './images/technologies/xamrim.jpeg'
+
 
 const technologies = {
   mobile: [
-    { name: 'Android', description: 'Develop native Android applications.', icon: '📱' },
-    { name: 'iOS', description: 'Create apps for iPhone and iPad.', icon: '🍏' },
+    { name: 'Android', description: 'Develop native Android applications.',
+      icon: <img src={Android} alt="Flutter Logo" className="w-12 h-12 mx-auto" />,
+    },
+    { name: 'iOS', description: 'Create apps for iPhone and iPad.',
+      icon: <img src={iOS} alt="Flutter Logo" className="w-12 h-12 mx-auto" />,
+      },
     {
       name: 'Flutter',
       description: 'Build natively compiled applications for mobile from a single codebase.',
       icon: <img src={flutterLogo} alt="Flutter Logo" className="w-12 h-12 mx-auto" />, // Flutter logo
     },
-    { name: 'React Native', description: 'Build mobile apps using React.', icon: '⚛️' },
-    { name: 'Xamarin', description: 'Develop apps for Android and iOS using C#.', icon: '🔷' },
+    { name: 'React Native', description: 'Build mobile apps using React.',
+      icon: <img src={ReactNative} alt="Flutter Logo" className="w-12 h-12 mx-auto" />,
+     },
+    { name: 'Xamarin', description: 'Develop apps for Android and iOS using C#.',
+      icon: <img src={Xamarin} alt="Flutter Logo" className="w-12 h-12 mx-auto" />,
+    },
   ],
   web: [
-    { name: 'JavaScript', description: 'A versatile language for web development.', icon: '🟡' },
-    { name: 'PHP', description: 'Server-side scripting language for web development.', icon: '🐘' },
-    { name: 'Laravel', description: 'A PHP framework for web artisans.', icon: '🦄' },
-    { name: 'MERN', description: 'MongoDB, Express.js, React, Node.js stack for full-stack development.', icon: '🌐' },
-    { name: 'MEAN', description: 'MongoDB, Express.js, Angular, Node.js stack for full-stack development.', icon: '🌍' },
-    { name: 'Python', description: 'A powerful language for web and app development.', icon: '🐍' },
-    { name: 'Django', description: 'A high-level Python web framework for rapid development.', icon: '🚀' },
-    { name: 'Ruby', description: 'A dynamic language focused on simplicity and productivity.', icon: '💎' },
-    { name: 'Java', description: 'A versatile, object-oriented programming language.', icon: '☕' },
-    { name: 'Spring', description: 'A comprehensive framework for Java.', icon: '🌱' },
-    { name: 'C#', description: 'A modern object-oriented programming language.', icon: '🔷' },
-    { name: 'ASP.NET', description: 'A framework for building web apps with C#.', icon: '🌐' },
+    { name: 'JavaScript', description: 'A versatile language for web development.',
+       icon:  <img src={JavaScript} alt="Flutter Logo" className="w-12 h-12 mx-auto" />,
+      
+    },
+    { name: 'PHP', description: 'Server-side scripting language for web development.', 
+      
+      icon:  <img src={Php} alt="Flutter Logo" className="w-12 h-12 mx-auto" />,
+    
+    },
+    { name: 'Laravel', description: 'A PHP framework for web artisans.',
+      
+      icon:  <img src={Laravel} alt="Flutter Logo" className="w-12 h-12 mx-auto" />,
+    
+    },
+    { name: 'MERN', description: 'MongoDB, Express.js, React, Node.js stack for full-stack development.', 
+      
+      icon: <img src={Mern} alt="Flutter Logo" className="w-12 h-12 mx-auto" />,
+    
+    },
+    { name: 'MEAN', description: 'MongoDB, Express.js, Angular, Node.js stack for full-stack development.', 
+      
+      icon: <img src={Mean} alt="Flutter Logo" className="w-12 h-12 mx-auto" />,
+    
+    },
+    { name: 'Python', description: 'A powerful language for web and app development.',
+      
+      icon:<img src={Python} alt="Flutter Logo" className="w-12 h-12 mx-auto" />, 
+      
+    },
+    { name: 'Django', description: 'A high-level Python web framework for rapid development.',icon:<img src={Django} alt="Flutter Logo" className="w-12 h-12 mx-auto" />, 
+
+    },
+    { name: 'Ruby', description: 'A dynamic language focused on simplicity and productivity.',
+      icon:<img src={Rubby} alt="Flutter Logo" className="w-12 h-12 mx-auto" />, 
+    },
+    { name: 'Java', description: 'A versatile, object-oriented programming language.',
+       icon:<img src={Java} alt="Flutter Logo" className="w-12 h-12 mx-auto" />, 
+      },
+    { name: 'Spring', description: 'A comprehensive framework for Java.',
+  
+      icon:<img src={Spring} alt="Flutter Logo" className="w-12 h-12 mx-auto" />, 
+    },
+    { name: 'C#', description: 'A modern object-oriented programming language.', 
+      
+      icon:<img src={Csharp} alt="Flutter Logo" className="w-12 h-12 mx-auto" />, 
+    },
+    { name: 'ASP.NET', description: 'A framework for building web apps with C#.',
+      icon:<img src={Asp} alt="Flutter Logo" className="w-12 h-12 mx-auto" />, 
+      },
   ],
 };
 
