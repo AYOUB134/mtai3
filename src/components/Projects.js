@@ -2,7 +2,7 @@ import React from 'react';
 import ludooImg from './images/ludoo.jpg';
 import foodiesImg from './images/foodapp.jpg';
 import doctorImg from './images/doctor.jpg';
-import hikmatImg from './images/hikmat.jpg';
+import hikmatImg from './images/newhikmat.jpg';
 
 const projects = [
   {

@@ -4,7 +4,7 @@ import wedo3 from './images/wedo-3.png'
 import wedo4 from './images/wedo-4.png'
 import wedo5 from './images/wedo-5.png'
 import wedo6 from './images/wedo-6.png'
-import wedoCross from './images/wedoCross.jpg'
+import wedoCross from './images/ncrosplatform.jpeg'
 export default function Services() {
     return (
         <div className="bg-gray-50 py-16" id='services'>
